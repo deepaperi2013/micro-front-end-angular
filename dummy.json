@@ -1,3 +1,58 @@
 {
- "sdfsdfsdf": "dsfdsf"
+  "data": [
+    {
+      "aId": "string",
+      "type": "string",
+      "companyName": "string",
+      "address": {
+        "addressLine1": "string",
+        "addressLine2": "string",
+        "addressLine3": "string",
+        "addressLine4": "string",
+        "city": "string",
+        "state": "string",
+        "postCode": "string",
+        "countryCode": "string",
+        "co": "string",
+        "county": "string"
+      },
+      "phoneNumber": "string",
+      "phoneExtension": "string",
+      "emailAddress": "string",
+      "contactFirstName": "string",
+      "contactLastName": "string",
+      "contactEmailAddress": "string",
+      "contactPhoneNumber": "string",
+      "createdUserId": "string",
+      "createdDateTime": "string",
+      "updatedUserId": "string",
+      "updatedDateTime": "string",
+      "dba": "string",
+      "alias": "string",
+      "division": "string",
+      "fId": "string",
+      "fStatusCode": "string",
+      "fComments": "string",
+      "fStatusDateTime": "string"
+    }
+  ],
+  "status": "string",
+  "message": "string",
+  "totalNumberOfRecords": 0,
+  "startPosition": 0,
+  "recordCount": 0,
+  "validationErrors": [
+    {
+      "path": "string",
+      "sourceValue": "string",
+      "errors": [
+        {
+          "code": "string",
+          "description": "string",
+          "severity": "string",
+          "externalErrorCode": "string"
+        }
+      ]
+    }
+  ]
 }
